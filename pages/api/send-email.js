@@ -15,8 +15,8 @@ export default async function handler(req, res) {
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-      user: 'sagehurt@mailo.com', // SMTP username
-      pass: 'sagekidayo', // SMTP password
+      user: 'switchglock@mailo.com', // SMTP username
+      pass: 'sagekidayo1*', // SMTP password
     },
   });
 
